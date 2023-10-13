@@ -1,8 +1,6 @@
-"""Sraper using scrapy"""
-'''
 vtubers_list = {
     <name>: {
-        "media_links": {
+        "media links": {
             "youtube": {
                 "main": <main_youtube_link>,
                 "clips: <clips_youtube_link>
@@ -26,8 +24,17 @@ vtubers_list = {
             "outfits": [
                 <images>
             ]
-        }  
+        }
+        "personal details": {
+            "gender": <string>,
+            "age": <int>,
+            "birthday": <date>,
+            "height": <string>,
+            "blood type": <string>,
+            "zodiac sign: <string>,
+            Emoji: <img>
+        }
     }
 }
-'''
+
 
