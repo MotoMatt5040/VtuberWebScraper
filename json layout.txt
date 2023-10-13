@@ -1,18 +1,19 @@
 vtubers_list = {
     <name>: {
+        "agency": <string>,
         "media links": {
             "youtube": {
-                "main": <main_youtube_link>,
-                "clips: <clips_youtube_link>
+                "main": <string>,
+                "clips: <string>
             },
             "twitter": {
-                "main": <main_twitter_link>,
-                "nsfw": <nsfw_twitter_link>
+                "main": <string>,
+                "nsfw": <string>
             },
-            "tiktok": <tiktok_link>,
-            "twitch": <twitch_link>,
-            "reddit": <reddit_link>,
-            "instagram": <instagram_link>
+            "tiktok": <string>,
+            "twitch": <string>,
+            "reddit": <string>,
+            "instagram": <string>
         },
         "images": {
             "full body": [
