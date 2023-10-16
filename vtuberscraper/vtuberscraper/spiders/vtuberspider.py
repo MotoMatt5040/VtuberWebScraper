@@ -7,4 +7,10 @@ class VtuberspiderSpider(scrapy.Spider):
     start_urls = ["https://virtualyoutuber.fandom.com/wiki/Special:AllPages"]
 
     def parse(self, response):
-        pass
+        data = response.css('div.mw-allpages-body li a')
+        next_page = response.css('div.mw-allpages-nav a ::attr(href)').get()
+        for item in data:
+            yield {
+                'name': item.css('a::text').get(),
+                'url': item.css('a').attrib['href']
+            }
