@@ -1,0 +1,34 @@
+{
+    <name: str>: {
+        "agency": <str>,
+        "media" {
+            "channels": {
+                <source>: <str>,
+                <source>: <str>,
+                <source>: <str>,
+                <source>: <str>,
+                <source>: <str>
+            },
+            "social_links": {
+                <source>: <str>,
+                <source>: <str>,
+                <source>: <str>,
+                <source>: <str>,
+                <source>: <str>
+            },
+            "official_websites": {
+                <source>: <str>,
+                <source>: <str>,
+                <source>: <str>,
+                <source>: <str>,
+                <source>: <str>
+            }
+        },
+        "gender":  <str>,
+        "age": <str>,
+        "birthday":, <str>,
+        "height": <str>,
+        "zodiac": <str>,
+        "emoji": <str>
+    }
+}
